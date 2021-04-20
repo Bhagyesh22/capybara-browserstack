@@ -3,6 +3,7 @@ user: USERNAME
 key: ACCESSKEY
 
 common_caps:
+  javascriptEnabled: true
   browserstack.use_w3c: true
   bstack:options:
     os: OS X
