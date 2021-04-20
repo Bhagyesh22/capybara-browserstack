@@ -1,0 +1,18 @@
+server: hub-cloud.browserstack.com
+user: USERNAME
+key: ACCESSKEY
+
+common_caps:
+  javascriptEnabled: true
+  browserstack.use_w3c: true
+  bstack:options:
+    os: Windows
+    buildName: Capybara-browserstack"
+    osVersion: '7'
+    sessionName: Single Session 
+    projectName: Test Application
+    debug: true
+
+browser_caps:
+  - browserName: Chrome
+    browserVersion: '70.0'

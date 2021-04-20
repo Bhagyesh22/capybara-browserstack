@@ -1,0 +1,18 @@
+server: hub-cloud.browserstack.com
+user: USERNAME
+key: ACCESSKEY
+
+common_caps:
+  browserstack.use_w3c: true
+  bstack:options:
+    os: OS X
+    buildName: Capybara-browserstack"
+    osVersion: Mojave
+    sessionName: Local Session 
+    projectName: Test Application
+    debug: true
+    local: true
+
+browser_caps:
+  - browserName: Chrome
+    browserVersion: '70.0'

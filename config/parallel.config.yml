@@ -1,0 +1,23 @@
+server: hub-cloud.browserstack.com
+user: USERNAME
+key: ACCESSKEY
+
+common_caps:
+  browserstack.use_w3c: true
+  bstack:options:
+    buildName: Capybara-browserstack"
+    sessionName: Parallel Session 
+    projectName: Test Application
+    debug: true
+
+browser_caps:
+  -
+    "browser": "safari"
+    "browserVersion": "13.1"
+  -
+    "browser": "safari"
+    "browserVersion": "13.1"
+  -
+    "browser": "firefox"
+  -
+    "browser": "firefox"
